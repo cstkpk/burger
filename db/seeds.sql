@@ -1,3 +1,3 @@
-INSERT INTO burgers (burger_name) VALUES ("Portobello mushroom");
-INSERT INTO burgers (burger_name, devoured) VALUES ("Black bean", true);
-INSERT INTO burgers (burger_name) VALUES ("Sweet potato");
+INSERT INTO burgers (burger_name) VALUES ("Portobello mushroom burger");
+INSERT INTO burgers (burger_name) VALUES ("Black bean burger");
+INSERT INTO burgers (burger_name) VALUES ("Sweet potato burger");
