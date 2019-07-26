@@ -28,6 +28,11 @@ $(function() {
       var newBurger = {
         burger_name: $("#bu").val().trim(),
       };
+
+      if ($("#bu").val("")) {
+        $("#modal-validation").modal("show");
+      }
+      else {
   
       // Send the POST request.
       $.ajax("/api/burgers", {
@@ -40,5 +45,8 @@ $(function() {
           location.reload();
         }
       );
+
+    }
+    
     });
   });
