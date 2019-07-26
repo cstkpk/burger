@@ -29,7 +29,7 @@ $(function() {
         burger_name: $("#bu").val().trim(),
       };
 
-      if ($("#bu").val("")) {
+      if ($("#bu").val() === "") {
         $("#modal-validation").modal("show");
       }
       else {
@@ -47,6 +47,6 @@ $(function() {
       );
 
     }
-    
+
     });
   });
