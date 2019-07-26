@@ -1,14 +1,22 @@
 body {
     background-color: rgb(211, 169, 32);
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 .img-burger {
     width: 25%;
 }
 
-/* .title {
-    background-color: yellow;
-} */
+.title {
+    font-family: 'Bungee Outline', cursive;
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+}
 
 .push {
     height: 50px;
