@@ -1,6 +1,7 @@
 body {
     background-color: rgb(211, 169, 32);
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
 }
 
 .img-burger {
@@ -16,6 +17,10 @@ body {
 h2 {
     font-family: 'Bungee Hairline', cursive;
     font-weight: bold;
+}
+
+.change-devour, .submit {
+    font-family: 'Bungee', cursive;
 }
 
 .push {
