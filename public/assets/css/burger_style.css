@@ -23,6 +23,11 @@ h2 {
     font-family: 'Bungee', cursive;
 }
 
+.eaten, .not-eaten {
+    max-height: 200px;
+    overflow: auto;
+}
+
 .push {
     height: 50px;
 }
